@@ -1,0 +1,20 @@
+h1{
+    text-align: center;
+    color: #e63946;
+}
+
+div{
+    /*En el padding se pueden especificar los valores para cada uno de los lados*/
+    padding: 10px 15px 5px 3px;
+    border: 1px solid #457b9d;
+    margin: 0px;
+    background-color: #f1faee;
+    /* Pemite que el diseño de un elemento no requiera de una barra de desplazamiento
+    para poder mostrar completamente ese elemento y que se ajuste al espacio. */
+    max-width: 300%;
+    /* Funciona de la misma manera que max-width, además es posible esteblecer las
+    cantidades de px en % */
+    /* max-height: 100px; */
+    outline: 20px;
+    outline-offset: 20px;
+}

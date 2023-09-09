@@ -1,0 +1,34 @@
+h1{
+    text-align: center;
+    color: #e63946;
+}
+
+/* El margin collapse es la fusión del margin bottom de la caja superior
+con el margin top de la caja inferior lo que ocasiona que el espacio entre cajas
+sea el especificado en la primera caja */
+
+.caja1{
+    padding: 10px 15px 5px 3px;
+    border: 1px solid #457b9d;
+    /* Este es el margin que separa las cajas */
+    margin: 30px;
+    background-color: #f1faee;
+    max-width: 300px;
+    outline: 20px;
+    outline-offset: 20px;
+}
+
+.caja2{
+    padding: 10px 15px 5px 3px;
+    border: 1px solid #457b9d;
+    /* Este es el margin que será absorbido dentro del margin de la caja1 */
+    margin: 20px;
+    background-color: #f1faee;
+    max-width: 300px;
+    outline: 20px;
+    outline-offset: 20px;
+}
+
+p.interno{
+    margin-left: inherit;
+}

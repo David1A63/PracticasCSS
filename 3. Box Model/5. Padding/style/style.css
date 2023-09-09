@@ -4,7 +4,8 @@ h1{
 }
 
 div{
-    padding: 10px;
+    /*En el padding se pueden especificar los valores para cada uno de los lados*/
+    padding: 10px 15px 5px 3px;
     border: 15px solid #457b9d;
     margin: 20px;
     background-color: #f1faee;

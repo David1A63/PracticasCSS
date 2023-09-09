@@ -1,0 +1,63 @@
+h1{
+    text-align: center;
+    color: #e63946;
+}
+
+.caja{
+    padding: 10px;
+    color: white;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    margin: 5px auto;
+    font-size: 10px;
+    /* Permite mover las cajas hacia la izquierda... */
+    float: left;
+}
+
+/* HTML Color Codes: https://htmlcolorcodes.com/color-names/ */
+.rojo{
+    background-color: crimson;
+}
+
+.rosa{
+    background-color: deeppink;
+}
+
+.rgb{
+    background-color: rgb(131, 56, 236);
+}
+
+.rgba{
+    /* En el canal alpha permite establecer el valor de las transparencias
+    Dependiendo de el valor asignado, más transparente será. Si alpha es más
+    Cercano a 0 será más transparente, mientras que si es más cercano a 1
+    será un color más sólido. */
+    background-color: rgba(131, 56, 236, .5);
+}
+
+.hexadecimal{
+    /* Funciona de manera parecida al RGB donde cada par de digitos corresponde
+    a una tonalidad de colores en el orden de Rojo, Verde y Azul. Es posible simplificar los
+    colores usando solo 3 digitos en el color hexadecimal. Ejemplo:
+    -Blanco: #FFFFFF
+    -Blanco: #FFF
+    Cualquiera de los dos ejemplos anteriores son válidos... */
+    background-color: #0091ad;
+}
+
+.hexa_transparencia{
+    /* Para el canal de transparencias alpha se agrega un par de digitos hexadecimales más
+    con el cual se representará la transparencia donde el valor más cercano a 0 será más
+    transparente, mientras que el valor más cercano a 100 será más solido. */
+    background-color: #0090ad88;
+}
+
+.hsl{
+    background-color: hsl(195, 100%, 50%);
+}
+
+.hsla{
+    /* Se agrega un valor para el canal alpha de manera parecida a la paleta de colores RGBA. */
+    background-color: hsla(195, 100%, 50%, 0.5);
+}

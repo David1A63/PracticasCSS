@@ -1,0 +1,16 @@
+h1{
+    text-align: center;
+    color: #e63946;
+}
+
+div{
+    padding: 10px 15px 5px 3px;
+    border: 1px solid #457b9d;
+    /* Permite centrar el contenido del elemento, al igual que los demás elementos es
+    posible establecer un valor individual para cada lado del elemento. */
+    margin: 0 auto;
+    background-color: #f1faee;
+    max-width: 300px;
+    outline: 20px;
+    outline-offset: 20px;
+}

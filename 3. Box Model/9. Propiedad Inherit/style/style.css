@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+    color: #e63946;
+}
+
+/* Elemento padre */
+div{
+    padding: 10px 15px 5px 3px;
+    border: 1px solid #457b9d;
+    /* Elemento heredado */
+    margin-left: 100px;
+    background-color: #f1faee;
+    max-width: 300px;
+    outline: 20px;
+    outline-offset: 20px;
+}
+
+/* Elemento Hijo */
+p.interno{
+    /* La caracteristica inherit permite heredar valores de una clase padre a una clase hijo */
+    margin-left: inherit;
+}
