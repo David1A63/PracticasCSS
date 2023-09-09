@@ -1,0 +1,8 @@
+body{
+    background-color: dodgerblue;
+    color: cornsilk;
+    background-image: url("/img/fondo.png");
+    /* En caso de que una imagen no cubra completamente el fondo es posible hacer
+    que el fondo se repite varias vececs en el fondo... */
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,31 @@
+h1{
+    color: #ef476f;
+    text-align: center;
+    /* Permite transformar el texto de HTML a mayusculas o minusculas */
+    text-transform: uppercase;
+    /* Permite crear un sombreado a nuestra fuente en el eje x, eje y y el blur (que tanto se
+    difumina) y el color de sombreado. */
+    text-shadow: 2px 2px 2px #ced4da;
+    /* Permite asignar un valor para el espaciado entre letras... */
+    letter-spacing: 3px;
+    /* Asigna un espaciado entre palabras */
+    word-spacing: 10px;
+    /* Permite subrayar o sobrerayar texto... */
+    text-decoration: overline;
+}
+
+.caja{
+    padding: 15px;
+    margin: auto;
+    width: 70%;
+    background-color: #219ebc;
+    border-radius: 5px;
+    color: white;
+}
+
+.texto{
+    text-align: justify;
+    /* Permite establecer la direccion en la que se lee el texto, de derecha a izquierda o de izquierda a
+    derecha... */
+    /* direction: rtl; */
+}

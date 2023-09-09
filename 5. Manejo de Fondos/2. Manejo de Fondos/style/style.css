@@ -1,0 +1,23 @@
+body{
+    /* background-color: dodgerblue; */
+    /* background-image: url("/img/fondo.png"); */
+    /* En caso de que una imagen no cubra completamente el fondo es posible hacer
+    que el fondo se repite varias vececs en el fondo... */
+    /* background-repeat: no-repeat; */
+    /* Permite posicionar la imagen de fondo en la pantalla... */
+    /* background-position: right top; */
+    /* Permite anclar el fondo de pantalla al desplazar la barra de scroll de la página... */
+    /* Es posible simplificar las propiedades anteriores en una sola fila:
+    Background-color: dodgerblue
+    Background-image: url("/img/fondo.png")
+    Background-repeat: no-repeat
+    Background-position: right top; */
+    color: cornsilk;
+    background-attachment: fixed;
+    background: dodgerblue url("/img/fondo.png") no-repeat right top;
+}
+
+h1{
+    text-align: center;
+    background-color: dodgerblue;
+}
