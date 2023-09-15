@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    color: crimson;
+}
+
+div{
+    /* Permite que se mantenga centrado el div y no se desborde
+    (Aparezca la barra de desplazamiento)*/
+    max-width: 50%;
+    border: 3px solid firebrick;
+    margin: auto;
+    /* Por defecto position es static */
+    /* Al ser la posición relativa se mantendrá el espacio correspondiente al elemento
+    en la plantilla html pero el elemento se visualizará en la posición donde se haya
+    indicado */
+    position: relative;
+    /* Los siguientes valores no afectan debido a que esta definida la propiedad
+    position: static */
+    top: 100px;
+    left: 50px;
+    bottom: 10px;
+    right: 50px;
+}

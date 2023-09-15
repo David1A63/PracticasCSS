@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+    color: crimson;
+}
+
+/* Div Hijo */
+div{
+    /* Funciona como posicionamiento relativo siempre que se muestre en pantalla y en cuanto sale de pantalla
+    se comporta como fixed. */
+    position: sticky;
+    /* Para que funcione en Safari */
+    position: -webkit-sticky;
+    top: 0;
+    border: 3px solid firebrick;
+}

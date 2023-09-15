@@ -1,0 +1,15 @@
+h1, div, p{
+    border: 3px solid blueviolet;
+    text-align: center;
+    color: cornflowerblue;
+    padding: 10px;
+    /* Display: Block -> Abarca todo el espacio de la linea
+    Display: inline -> Coloca los elementos en una sola linea*/
+    display: block;
+}
+
+span{
+    /* <span> por defecto es de tipo inline */
+    display: inline;
+    border: 1px solid blue;
+}

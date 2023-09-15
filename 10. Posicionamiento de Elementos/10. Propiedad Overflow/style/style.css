@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    color: crimson;
+}
+
+div.contenedor{
+    border: 3px dashed greenyellow;
+    width: 30%;
+    height: 100px;
+    margin: auto;
+    /* Por defecto overflow es visible (desbordamiento visible) */
+    /* overflow: visible; */
+    /* Oculta el desbordamiento */
+    /* overflow: hidden; */
+    /* Permite agregar unas barras de scroll para ver el contenido */
+    /* overflow: scroll; */
+    /* Agregará barras de desplazamiento solo en caso de que se necesite... */
+    /* Overflow auto solo podrá aplicarse si se especifica el valor de height */
+    overflow: auto;
+    /* Tambien pueden aplicarse dependiendo que eje se especifique */
+    /* overflow-x: ; */
+    /* overflow-y: ; */
+}

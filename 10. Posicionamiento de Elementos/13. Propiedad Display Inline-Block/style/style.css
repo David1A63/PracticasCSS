@@ -1,0 +1,25 @@
+h1{
+    text-align: center;
+    color: #457b9b;
+}
+
+div.contenedor{
+    width: 80%;
+    height: 20%;
+    overflow: auto;
+    margin: auto;
+    border: 3px dashed #a8dadc;
+}
+
+span{
+    font-weight: bolder;
+    font-style: italic;
+    font-size: larger;
+    background-color: #a8dadc;
+    border: 1px solid #457b9d;
+    height: 50px;
+    padding: 5px;
+    /* Permite que se comporte como un elemento inline y que mantenga el salto de linea
+    correspondiente al elemento. */
+    display: inline-block;
+}

@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+    color: crimson;
+}
+
+div{
+    /* Por defecto position es static */
+    /* Al ser la posición relativa se mantendrá el espacio correspondiente al elemento
+    en la plantilla html pero el elemento se visualizará en la posición donde se haya
+    indicado */
+    /* Al agregar la propiedad fixed colocará en encima de los demás elementos. */
+    position: fixed;
+    /* Los siguientes valores no afectan debido a que esta definida la propiedad
+    position: static */
+    top: 0;
+    right: 0;
+    border: 3px solid firebrick;
+}

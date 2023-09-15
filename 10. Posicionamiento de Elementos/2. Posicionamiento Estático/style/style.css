@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+    color: crimson;
+}
+
+div{
+    /* Permite que se mantenga centrado el div y no se desborde
+    (Aparezca la barra de desplazamiento)*/
+    max-width: 50%;
+    border: 3px solid firebrick;
+    margin: auto;
+    /* Por defecto position es static */
+    position: static;
+    /* Los siguientes valores no afectan debido a que esta definida la propiedad
+    position: static */
+    top: 100px;
+    left: 100px;
+}

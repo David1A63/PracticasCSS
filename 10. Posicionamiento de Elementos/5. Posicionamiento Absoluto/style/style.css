@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+    color: crimson;
+}
+
+/* Div Padre */
+div.relativo{
+    max-width: 300px;
+    height: 200px;
+    /* Los elementos con posición static no pueden ser modificados por left, right, bottom o top */
+    position: relative;
+    top: 10px;
+    left: 100px;
+    border: 3px solid cornflowerblue;
+}
+
+/* Div Hijo */
+div.absoluto{
+    /* Por defecto position es static */
+    /* Al ser la posición relativa se mantendrá el espacio correspondiente al elemento
+    en la plantilla html pero el elemento se visualizará en la posición donde se haya
+    indicado */
+    /* Al agregar la propiedad fixed colocará en encima de los demás elementos. */
+    position: absolute;
+    /* Los siguientes valores no afectan debido a que esta definida la propiedad
+    position: static */
+    bottom: 20px;
+    right: 10px;
+    border: 3px solid firebrick;
+}
