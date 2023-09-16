@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+    /* Valores negativos para sombrear a la izquierda y positivos para sombrear a la derecha */
+    /* Si se modifican los valores de px se puede mover el sombreado */
+    text-shadow: 2px 2px 5px gray;
+}
+
+div.contenedor{
+    width: 30%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid #a8dadc;
+    padding: 15px;
+    text-align: center;
+}

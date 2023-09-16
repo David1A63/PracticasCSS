@@ -1,0 +1,34 @@
+h1{
+    text-align: center;
+    text-shadow: 2px 2px 5px #a8dadc;
+    color: #e63046;
+}
+
+div.contenedor{
+    /* Para aplicar flexbox usar display: flex */
+    display: flex;
+    background-color: #560bad;
+    /* Con flex-direction podemos indicar la dirección en la que se desplegarán los elementos html
+    column = vertical
+    row = horizontal */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row; */
+    /* Permite envolver los elementos que esten dentro del flex y que se adapten a la resolución
+    de la pantalla */
+    /* flex-wrap: wrap; */
+    /* Puede sustitur flex direction y flex flow */
+    /* Permite centrar los elementos con flexbox */
+    flex-flow: row wrap;
+    justify-content: center;
+    height: 300px;
+    /* Alinea los elemento de acuerdo a la posición de la mitad del texto */
+    align-items: stretch;
+}
+
+div.contenedor > p{
+    background-color: #4895ef;
+    color: #f1faee;
+    margin: 20px;
+    padding: 15px;
+    font-size: 1.5em;
+}
